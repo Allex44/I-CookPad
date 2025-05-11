@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    <meta name="color-scheme" content="light dark">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Cookpad</title>
+</head>
+
+<body id="body">
+    <div id="formulario" class="formulario">
+        <img class="logo"src="./img/textoNegroLogo.png" alt="Cookpad">
+        <br>
+        <input type="email" id="correo" placeholder="Email"><br>
+        <input type="password" id="contraseña" placeholder="Contraseña"><br>
+        <button id="iniSesion" >Iniciar sesión</button>
+        <p id="mensaje"></p>
+        <div class="metodosIni">
+            <button id="google" class="distintos"><img src="img/google-icon.png" height ="25" width="25" /></button>
+            <button id="microsoft" class="distintos"><img src="./img/microsoft.png" height ="25" width="25" /></button>
+        </div>
+        <br>
+        <button id="registro">Registrate</button>
+    </div>
+    <div id="registrarse" class="formulario">
+        <button id="volverIniSesion" class="volIniSesion">Volver</button>
+        <img class="logo"src="./img/textoNegroLogo.png" alt="Cookpad">
+        <input type="text" id="usuario" placeholder="Nombre de usuario"><br>
+        <input type="email" id="newCorreo" placeholder="Email"><br>
+        <input type="password" id="newPassword" placeholder="Contraseña"><br>
+        <br>
+        <input type="password" id="comprobar" placeholder="Confirmar contraseña"><br>
+        <button id="registrar">Registrarse</button>
+        <p id="mensajeRe"></p>
+    </div>
+    <p id="respuesta"></p>
+    <script src="cordova.js"></script>
+    <script type="module" src="js/iniSesion.js"></script>
+</body>
+
+</html>
