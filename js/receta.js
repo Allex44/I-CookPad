@@ -6,7 +6,7 @@ import { getDatabase, ref as databaseRef, onValue } from "https://www.gstatic.co
 
 // Configuración de Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyCikypcBz_YaTgm1JMhSokuIdMe3FrAXno",
+    apiKey: "",
     authDomain: "cookpad-cfdac.firebaseapp.com",
     databaseURL: "https://cookpad-cfdac-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "cookpad-cfdac",
