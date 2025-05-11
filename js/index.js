@@ -10,7 +10,7 @@ import { getStorage, ref as storageRef, getDownloadURL } from "https://www.gstat
 
 // Configuración de Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyCikypcBz_YaTgm1JMhSokuIdMe3FrAXno",
+  apiKey: "",
   authDomain: "cookpad-cfdac.firebaseapp.com",
   databaseURL: "https://cookpad-cfdac-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "cookpad-cfdac",
